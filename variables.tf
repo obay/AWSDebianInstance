@@ -48,12 +48,15 @@ variable "TopDomainName" {
 #   description = "AWS Key Pair Namespace"
 # }
 
+
 # variable "SSHKeyStage" {
 #   type        = "string"
 #   description = "AWS Key Pair Stage"
 # }
 
+
 # variable "SSHKeyFolder" {
 #   type        = "string"
 #   description = "AWS Key Pair Folder"
 # }
+
