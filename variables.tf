@@ -45,15 +45,15 @@ variable "TopDomainName" {
 
 variable "SSHKeyNamespace" {
   type        = "string"
-  description = ""
+  description = "AWS Key Pair Namespace"
 }
 
 variable "SSHKeyStage" {
   type        = "string"
-  description = ""
+  description = "AWS Key Pair Stage"
 }
 
 variable "SSHKeyFolder" {
   type        = "string"
-  description = ""
+  description = "AWS Key Pair Folder"
 }
