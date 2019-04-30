@@ -43,17 +43,17 @@ variable "TopDomainName" {
   description = "Top level domain that will be used for the new Route 53 record creted."
 }
 
-variable "SSHKeyNamespace" {
-  type        = "string"
-  description = "AWS Key Pair Namespace"
-}
+# variable "SSHKeyNamespace" {
+#   type        = "string"
+#   description = "AWS Key Pair Namespace"
+# }
 
-variable "SSHKeyStage" {
-  type        = "string"
-  description = "AWS Key Pair Stage"
-}
+# variable "SSHKeyStage" {
+#   type        = "string"
+#   description = "AWS Key Pair Stage"
+# }
 
-variable "SSHKeyFolder" {
-  type        = "string"
-  description = "AWS Key Pair Folder"
-}
+# variable "SSHKeyFolder" {
+#   type        = "string"
+#   description = "AWS Key Pair Folder"
+# }
