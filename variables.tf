@@ -9,7 +9,8 @@ variable "Subdomain" {
 }
 
 variable "AWSInstanceType" {
-  type = "string"
+  type        = "string"
+  description = "AWS Instance type from the list in https://aws.amazon.com/ec2/instance-types/"
 }
 
 variable "AWSSubnet" {
