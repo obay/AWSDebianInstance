@@ -1,6 +1,6 @@
 resource "aws_instance" "AWSInstance" {
   # ami                    = "${data.aws_ami.debian.id}"
-  ami                    = "ami-0ca467408e84df23c"
+  ami                    = "${var.InstanceAMI}"
   instance_type          = "${var.AWSInstanceType}"
   subnet_id              = "${var.AWSSubnet}"
   key_name               = "${var.AWSKeyPairName}"

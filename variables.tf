@@ -13,6 +13,11 @@ variable "AWSInstanceType" {
   description = "AWS Instance type from the list in https://aws.amazon.com/ec2/instance-types/"
 }
 
+variable "InstanceAMI" {
+  type        = "string"
+  description = "AMI ID for the Image to be used to create the instance"
+}
+
 variable "AWSSubnet" {
   type        = "string"
   description = "Amazon AWS Subnet to be used for creating new resources."
