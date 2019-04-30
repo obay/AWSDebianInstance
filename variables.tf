@@ -42,3 +42,18 @@ variable "TopDomainName" {
   type        = "string"
   description = "Top level domain that will be used for the new Route 53 record creted."
 }
+
+variable "SSHKeyNamespace" {
+  type        = "string"
+  description = ""
+}
+
+variable "SSHKeyStage" {
+  type        = "string"
+  description = ""
+}
+
+variable "SSHKeyFolder" {
+  type        = "string"
+  description = ""
+}
